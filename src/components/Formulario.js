@@ -21,7 +21,7 @@ const  Formulario = () => {
       autor: autor,
     })
     .then(() => {
-      console.log("CADASTRADO COM SUCESSO")
+      alert("CADASTRADO COM SUCESSO")
       setAutor('');
       setTitulo('')
     })
