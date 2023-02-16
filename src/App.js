@@ -22,12 +22,12 @@ const  App = () => {
       <h1>Curso de React com Firebase 2023 :) !!!</h1>
 
       <div className="container">
-      <label>Título:</label>
-      <input type="text" placeholder="Digite o título" value={titulo} onChange={(e) => setTitulo(e.target.value)}/>
+      <label className="form-label">Título:</label>
+      <input type="text" className="form-control" placeholder="Digite o título" value={titulo} onChange={(e) => setTitulo(e.target.value)}/>
 
-      <label>Autor:</label>
-      <input type="text" placeholder="Digite o autor" value={autor} onChange={(e) => setAutor(e.target.value)}/>
-      <button onClick={handleAdd}>Cadastrar</button>
+      <label className='form-label'>Autor:</label>
+      <input className="form-control" type="text" placeholder="Digite o autor" value={autor} onChange={(e) => setAutor(e.target.value)}/><br></br>
+      <button className="btn btn-success" onClick={handleAdd}>Cadastrar</button>
       </div>
     </div>
   );
