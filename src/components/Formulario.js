@@ -41,7 +41,7 @@ const  Formulario = () => {
 
             <label className='form-label'>Autor:</label>
             <input className="form-control" type="text" placeholder="Digite o autor" value={autor} onChange={(e) => setAutor(e.target.value)}/><br></br>
-            <button className="btn btn-outline-warning" onClick={handleAdd}>Cadastrar</button>
+            <button className="btn btn-outline-dark btn-lg" onClick={handleAdd}>Cadastrar</button>
         
         </div>
     </div>
