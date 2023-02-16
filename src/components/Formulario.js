@@ -33,7 +33,7 @@ const  Formulario = () => {
     <div>
       <h1>Curso de React com Firebase 2023 :) !!!</h1>
 
-      <div className="container">
+      <div className="container-fluid">
       <label className="form-label">Título:</label>
       <input type="text" className="form-control" placeholder="Digite o título" value={titulo} onChange={(e) => setTitulo(e.target.value)}/>
 
