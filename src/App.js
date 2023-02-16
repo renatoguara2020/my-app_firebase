@@ -1,4 +1,5 @@
 import Formulario from "./components/Formulario"
+import '../src/app.css';
 
 
 const App = () =>{
