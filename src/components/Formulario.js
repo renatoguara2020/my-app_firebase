@@ -21,9 +21,10 @@ const  Formulario = () => {
       autor: autor,
     })
     .then(() => {
-      alert("CADASTRADO COM SUCESSO")
+     
       setAutor('');
-      setTitulo('')
+      setTitulo('');
+      alert("Posts cadastrados com sucesso!!!!");
     })
     .catch((error) => {
       console.log("ERRO " + error)
@@ -40,7 +41,7 @@ const  Formulario = () => {
 
             <label className='form-label'>Autor:</label>
             <input className="form-control" type="text" placeholder="Digite o autor" value={autor} onChange={(e) => setAutor(e.target.value)}/><br></br>
-            <button className="btn btn-primary" onClick={handleAdd}>Cadastrar</button>
+            <button className="btn btn-outline-warning" onClick={handleAdd}>Cadastrar</button>
         
         </div>
     </div>
